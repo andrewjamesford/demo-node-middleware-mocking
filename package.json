@@ -1,0 +1,22 @@
+{
+  "name": "demo-node-middleware-mocking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js localhost 8080",
+    "test": "jest --watchAll --colors --verbose"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "jest": "29.2.2",
+    "morgan": "~1.9.1",
+    "supertest": "6.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": []
+}
